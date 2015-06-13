@@ -75,3 +75,10 @@ The mime.types file is responsible for mapping file extensions to mime types.
 ### nginx.conf
 
 The main nginx config file. [About nginx.conf](nginx-conf.md).
+
+## Configuring nginx to run with dynamic scripts
+
+Provisioning the server to pass requests to dynamic scripts is out of the scope
+of this configuration, and implementation will depend on specific use-cases.
+See nginx's official documentation for configuring nginx with [PHP](http://wiki.nginx.org/Configuration#PHP_via_FastCGI),
+[Python](http://wiki.nginx.org/Configuration#Python_via_FastCGI), etc.
